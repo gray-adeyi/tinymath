@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tinymath"
+version = "0.1.0"
+description = "Small Math Library Implemented In My Computer Graphics Series"
+authors = ["Osborngh <osbornghdev@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+ruff-lsp = "^0.0.27"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
